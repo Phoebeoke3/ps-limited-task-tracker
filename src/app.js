@@ -19,7 +19,7 @@ app.post("/tasks", (req, res) => {
 
   return res.status(201).json({
     title: title.trim(),
-    completed: true,
+    completed: false,
   });
 });
 
